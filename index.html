@@ -28,6 +28,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
+        <link rel="stylesheet" href="css/section.css">
     </head>
 
     <body>
@@ -77,6 +78,16 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <section id = 'questions'>
+            <p class ="ques">Difference between local storage and sesssion storage?</p>
+            <p>Both local storage and session storage can store a large amount of data and these data is never transferred to server.They are accessible via Js and HTML5</p>
+            <p>the only defference is local storage data has no expiration date.It remains on client's computer even we close the tab or shut down the pc.
+            On the other hand session data expires when the client closes the tab or log out from a website.</p>
+            <br>
+            <br>
+            <p class="ques">How does Javascript works?</p>
+            <p>Chrome uses v8 engine to run javascript.At first the engine takes the JS source code and parse it by a parser and makes an abstract syntax tree.Then V8 engine's interpreter generates bytecode(which machine can read ) from the syntax tree by interpreting each line .Then the machine execute the bytecode.For better performance the browser uses an internal technology called just-in-time(JIT) compilation alongside,which compiles javascript into bytecodes at runtime .V8 engine also runs an optimazation compiler parallely to make high optimized machine code by replacing section of bytecodes. </p>
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->

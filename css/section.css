@@ -1,0 +1,17 @@
+
+
+/* section styles */
+
+.ques{
+    color: rgb(99, 40, 40);
+    font-weight:bolder;
+    font-size:large;
+
+}
+#questions{
+    margin:60px auto;
+    width:60%;
+    border: 1px solid rgb(99, 40, 40);
+    padding:20px;
+    border-radius: 3px;
+}
